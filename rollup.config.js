@@ -7,6 +7,9 @@ import css from 'rollup-plugin-css-only';
 
 const production = !process.env.ROLLUP_WATCH;
 
+import dotenv from 'dotenv';
+dotenv.config();
+
 function serve() {
 	let server;
 
